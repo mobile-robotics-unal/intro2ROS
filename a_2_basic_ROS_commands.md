@@ -18,3 +18,12 @@
 - rostopic list: Shows a list of published themes.
 - rostopic pub: Publish information about a theme.
 - rostopic type: Prints the type of theme.
+
+### rosservice
+- rosservice list Prints information of an active service.
+- rosservice node Imprime el nombre del nodo proveniente de un servicio Prints the node's name comming from a service.
+- rosservice call Llama el servicio con los argumentos dados Calls the service.
+- rosservice args List of arguments of a service.
+- rosservice type Prints the type of service.
+- rosservice uri Prints the ROSRPC uri service.
+- rosservice find Find a service by its type.

@@ -28,8 +28,14 @@
 - rosservice uri: Prints the ROSRPC uri service.
 - rosservice find: Find a service by its type.
 ### rosmsg
-rosmsg show: Shows the fields on msg/srv.
-rosmsg list: Shows the names of all msg/srv.
-rosmsg md5: Let know msg/srv md5 sum.
-rosmsg package: Gives the list of all msg/srv in a package.
-rosmsg packages: List of all the packages with an specific msg/srv
+- rosmsg show: Shows the fields on msg/srv.
+- rosmsg list: Shows the names of all msg/srv.
+- rosmsg md5: Let know msg/srv md5 sum.
+- rosmsg package: Gives the list of all msg/srv in a package.
+- rosmsg packages: List of all the packages with an specific msg/srv
+### rospack
+- rospack: Search and do a backup of a package.
+- catkin_create_pkg: Creates a new package.
+- catkin_make: Creates a new workspace for a package. 
+- rosdep: Installs all system dependencies of a package.
+- rqt: Shows all depedencies of a package as a graph.

@@ -20,10 +20,16 @@
 - rostopic type: Prints the type of theme.
 
 ### rosservice
-- rosservice list Prints information of an active service.
-- rosservice node Imprime el nombre del nodo proveniente de un servicio Prints the node's name comming from a service.
-- rosservice call Llama el servicio con los argumentos dados Calls the service.
-- rosservice args List of arguments of a service.
-- rosservice type Prints the type of service.
-- rosservice uri Prints the ROSRPC uri service.
-- rosservice find Find a service by its type.
+- rosservice list: Prints information of an active service.
+- rosservice node: Imprime el nombre del nodo proveniente de un servicio Prints the node's name comming from a service.
+- rosservice call: Llama el servicio con los argumentos dados Calls the service.
+- rosservice args: List of arguments of a service.
+- rosservice type: Prints the type of service.
+- rosservice uri: Prints the ROSRPC uri service.
+- rosservice find: Find a service by its type.
+### rosmsg
+rosmsg show: Shows the fields on msg/srv.
+rosmsg list: Shows the names of all msg/srv.
+rosmsg md5: Let know msg/srv md5 sum.
+rosmsg package: Gives the list of all msg/srv in a package.
+rosmsg packages: List of all the packages with an specific msg/srv

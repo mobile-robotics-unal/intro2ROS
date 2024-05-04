@@ -5,7 +5,7 @@ usadas.
 -->
 In this case, there are two programs in *Python*. Each one have a few characteristics that let subscribe to an specific theme or publish the different states of the robot.
 
-## `pypub.vel` Program
+## `pypubvel.py` Program
 This program let know the current state of the robot, and take read of the data in a frequecy that is set by the user. The main commands that are used in this code are:
 - `rospy.Publisher()`: Creates a publisher for a theme with an specific message.
 - `rospy.Rate()`: Creates an object which set the rate (in Hz) for a loop. This process could be refered to sleep the loop.

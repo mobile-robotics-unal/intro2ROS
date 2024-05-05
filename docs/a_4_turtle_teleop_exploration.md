@@ -25,15 +25,30 @@ Now, we follow the next set of instructions (in different terminals):
 2. In another terminal, we create a new node: `rosrun turtlesim turtlesim_node`
 3. In the last terminal we write rosrun turtlesim `turtle_teleop_key` to control the turtle with the keyboard.
 4. Run the `pypubvel.py` program.
+
 <p align="center">
   <img align="center" width="500" src="https://github.com/mobile-robotics-unal/intro2ROS/assets/161974694/ce3d8f76-7cfb-4c73-ac25-6de4c663440a">
 <p/>
 Now using the keyboard, we move the turtle around the workplane to know its dimensions, specifically to the corners of the space.
   
-![teleop_1](https://github.com/mobile-robotics-unal/intro2ROS/assets/161974694/922b83ac-4a71-4303-a364-6f2c2f931892)
+- Corner 1; $x=11.1028$, $y=-0.028803$ 
+<p align="center">
+  <img align="center" width="600" src="https://github.com/mobile-robotics-unal/intro2ROS/assets/161974694/922b83ac-4a71-4303-a364-6f2c2f931892">
+<p/>
   
-![teleop_2](https://github.com/mobile-robotics-unal/intro2ROS/assets/161974694/ccc17b15-b98e-4769-9d1f-0bdab3ceef4a)
+- Corner 2; $x=-0.0214$, $y=-0.023777$ 
+<p align="center">
+  <img align="center" width="600" src="https://github.com/mobile-robotics-unal/intro2ROS/assets/161974694/ccc17b15-b98e-4769-9d1f-0bdab3ceef4a">
+<p/>
+  
+- Corner 3; $x=-0.0083$, $y=11.119777$ 
+<p align="center">
+  <img align="center" width="600" src="https://github.com/mobile-robotics-unal/intro2ROS/assets/161974694/e954bf63-010c-4e51-9c42-6b4d7297cff8">
+<p/>
+  
+- Corner 4; $x=11.1077$, $y=11.114716$ 
+<p align="center">
+  <img align="center" width="600" src="https://github.com/mobile-robotics-unal/intro2ROS/assets/161974694/a77d23a8-8dc4-4d12-ae20-e42c436ce098">
+<p/>
 
-![teleop_3](https://github.com/mobile-robotics-unal/intro2ROS/assets/161974694/e954bf63-010c-4e51-9c42-6b4d7297cff8)
-
-![teleop_4](https://github.com/mobile-robotics-unal/intro2ROS/assets/161974694/a77d23a8-8dc4-4d12-ae20-e42c436ce098)
+The figure is a quadrilateral with approximately dimensions $11.1291 \times 11.14858$ [square units].

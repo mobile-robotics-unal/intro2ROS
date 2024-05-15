@@ -1,4 +1,4 @@
-﻿# Introduction to ROS - Lab 1 (Fundamentos de Robótica móvil - 2024 1S)
+﻿# Introduction to ROS, Kobuki and Lego EV3 - Lab 2 (Fundamentos de Robótica móvil - 2024 1S)
 
 ***Universidad Nacional de Colombia***
 ***Department of Mechanical and Mechatronics Engineering***

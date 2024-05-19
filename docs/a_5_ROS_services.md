@@ -20,7 +20,9 @@ from turtlesim.srv import TeleportAbsolute
 rospy.wait_for_service("turtle1/teleport_absolute")
 turtle1_teleport = rospy.ServiceProxy("turtle1/teleport_absolute", TeleportAbsolute)
 ```
+
 3. Calling Services
+
 Servies proxies are callable to use the service. Each service could have multiple argumments. In this case, we use `turtle1_teleport()` to set $x=4$, $y=10$ and $\theta=0$:
 
 ```python

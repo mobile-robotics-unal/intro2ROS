@@ -26,7 +26,7 @@ vscode comes with many handy extensions that help in the development process thi
 
 ### vscode settings
 
-A small detail that bugged me was that pylance show   details in 
+A small detail that bugged me was that pylance show a warning when importing `rospy`to fix it you need to include the paths in pylance's context in settings.
 
 ````json
 "python.autoComplete.extraPaths": [

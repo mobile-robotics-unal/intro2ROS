@@ -34,3 +34,9 @@ A small detail that bugged me was that pylance show a warning when importing `ro
     "/opt/ros/noetic/lib/python3/dist-packages"
 ]
 ```
+## catkin tools
+
+
+```
+wstool update
+```

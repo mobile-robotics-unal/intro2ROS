@@ -54,6 +54,7 @@
   <depend>std_msgs</depend>
   <depend>rospy</depend>
   <depend>roscpp</depend>
+  <depend>roslaunch</depend>
   
 
   <!-- The export tag contains other, unspecified, tags -->

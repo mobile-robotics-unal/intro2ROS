@@ -174,6 +174,8 @@ include_directories(include ${catkin_INCLUDE_DIRS})
 catkin_install_python(PROGRAMS
    scripts/pypubvel.py
    scripts/pysubpose.py
+   scripts/pysubpose.py
+   scripts/turtlesim_service.py
    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
@@ -199,12 +201,12 @@ catkin_install_python(PROGRAMS
 # )
 
 ## Mark other files for installation (e.g. launch and bag files, etc.)
-# install(FILES
-#   # myfile1
-#   # myfile2
-#   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
-# )
+ install( DIRECTORY 
+   launch/
+   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
+ )
 
+ #roslaunch_add_file_check(meassure.launch)
 #############
 ## Testing ##
 #############

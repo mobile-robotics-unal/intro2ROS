@@ -31,3 +31,16 @@ This repo contains the work done for the second lab of the Fundamentals of mobil
 ### 2. [cliff sensors](docs/b_2_cliff_sensors.md)
 
 ### 3. [Basic sensor actutor implementation](docs/b_3_sensor_actuator.md)
+
+## Set up repo 
+This repo cotains both some notes and documentation with our experiences using ROS but also contains ROS packages developed in the process.
+
+
+
+```
+rosrun intro_2_ros_a hello
+```
+
+```
+rosrun intro_2_ros_a pubvel
+```

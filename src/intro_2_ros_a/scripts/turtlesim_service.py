@@ -12,23 +12,13 @@ if __name__ == '__main__':
     clear1 = rospy.ServiceProxy('clear', Empty) 
 
 
-    rate = rospy.Rate(0.3) 
+    rate = rospy.Rate(1) 
 
-    pos=1 
-    # Similar to while(ros::ok()) 
-    while not rospy.is_shutdown(): 
-        if (pos==1): 
-            resp1 = turtle1_teleport(4, 5, 0) 
-            clear1() 
-        if (pos==2): 
-            resp1 = turtle1_teleport(4, 10, 0)
-        if (pos==3): 
-            resp1 = turtle1_teleport(8, 10, 0) 
-        if (pos==4): 
-            resp1 = turtle1_teleport(8, 5, 0) 
-        if (pos==5): 
-            resp1 = turtle1_teleport(4, 5, 0) 
-        if (pos>5): 
-            pos=1 
-        pos+=1 
-        rate.sleep()
+    while not rospy.is_shutdown():
+        
+        target_points = rospy.get_param("points", [])
+        for point in target_points:
+            turtle1_teleport(point[0], point[1], point[2])
+            rate.sleep()
+
+    

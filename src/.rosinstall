@@ -1,0 +1,4 @@
+- git:
+    local-name: ros_tutorials/turtlesim
+    uri: https://github.com/ros-gbp/ros_tutorials-release.git
+    version: release/noetic/turtlesim/0.10.2-1

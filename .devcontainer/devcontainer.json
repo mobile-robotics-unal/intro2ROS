@@ -5,10 +5,14 @@
     "--privileged",
     "--network=host"
   ],
+  "containerEnv": {
+    "DISPLAY": "unix:0"
+  },
   "workspaceMount": "source=${localWorkspaceFolder},target=/${localWorkspaceFolderBasename},type=bind",
   "workspaceFolder": "/${localWorkspaceFolderBasename}",
   "mounts": [
-    "source=${localEnv:HOME}${localEnv:USERPROFILE}/.bash_history,target=/home/vscode/.bash_history,type=bind"
+    "source=${localEnv:HOME}${localEnv:USERPROFILE}/.bash_history,target=/home/vscode/.bash_history,type=bind",
+    "source=/tmp/.X11-unix,target=/tmp/.X11-unix,type=bind,consistency=cached"
   ],
   "customizations": {
     "vscode": {
@@ -20,7 +24,9 @@
         "eamodio.gitlens",
         "ms-vscode.cpptools",
         //"DavidAnson.vscode-markdownlint",
-        "yzhang.markdown-all-in-one"
+        "yzhang.markdown-all-in-one",
+        "ms-azuretools.vscode-docker",
+        "aws.copilot"
       ]
     }
   }

@@ -19,3 +19,13 @@ The Kobuki base publishes various sensor data, including cliff sensor informatio
 ````
 roslaunch kobuki minimal.launch
 ````
+2. Identify cliff sensor: The cliff sensor data is published on a specific ROS topic. With rostopic list you can see the currently list of topics, and the next topic is the topic of cliff.
+
+````
+"/mobile_base/events/cliff"
+````
+3. Use 'rostopic echo': When you identify the topic, with rostopic echo you print the value of this sensor.
+
+````
+rostopic echo /mobile_base/events/cliff
+````

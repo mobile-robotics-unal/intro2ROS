@@ -16,3 +16,15 @@ Kobuki is an mobile base for open-source research and development purposes. It c
 ![kobuki](https://github.com/mobile-robotics-unal/intro2ROS/assets/49196698/12c16e19-a4ec-4d62-bd88-4de127ee0b92)
 
 # Tech Specs kobuki
+
+## Size and Weight
+- Dimensions: 354x354x420 mm
+- Weight: 6,3 kg
+- Max Payload: 5 kg
+  ![top](https://github.com/mobile-robotics-unal/intro2ROS/assets/49196698/fc0eb83a-ecdc-4053-b197-0f6d089dfd77)
+
+## Speed and performance
+- Max Speed: 0,65 m/s
+- Obstacle clearance: 15 mm
+- Drivers and apis: ROS
+  ![front](https://github.com/mobile-robotics-unal/intro2ROS/assets/49196698/0ba3a79d-b0c5-4262-a417-c7c6e60dcf46)

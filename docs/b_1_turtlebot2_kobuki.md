@@ -22,14 +22,53 @@ Kobuki is an mobile base for open-source research and development purposes. It c
 - Weight: 6,3 kg
 - Max Payload: 5 kg
 
-<p align="center">  
+
   ![top](https://github.com/mobile-robotics-unal/intro2ROS/assets/49196698/fc0eb83a-ecdc-4053-b197-0f6d089dfd77)
-</p>
+
 ## Speed and performance
 - Max Speed: 0,65 m/s
 - Obstacle clearance: 15 mm
 - Drivers and apis: ROS
 
- <p align="center"> 
+
   ![front](https://github.com/mobile-robotics-unal/intro2ROS/assets/49196698/0ba3a79d-b0c5-4262-a417-c7c6e60dcf46)
-</p>
+
+## Funcional Specification
+
+Maximum translational velocity: 70 cm/s
+Maximum rotational velocity: 180 deg/s (>110 deg/s gyro performance will degrade)
+Payload: 5 kg (hard floor), 4 kg (carpet)
+Cliff: will not drive off a cliff with a depth greater than 5cm
+Threshold Climbing: climbs thresholds of 12 mm or lower
+Rug Climbing: climbs rugs of 12 mm or lower
+Expected Operating Time: 3/7 hours (small/large battery)
+Expected Charging Time: 1.5/2.6 hours (small/large battery)
+Docking: within a 2mx5m area in front of the docking station
+
+## Hardware Specification
+
+PC Connection: USB or via RX/TX pins on the parallel port
+Motor Overload Detection: disables power on detecting high current (>3A)
+Odometry: 52 ticks/enc rev, 2578.33 ticks/wheel rev, 11.7 ticks/mm
+Gyro: factory calibrated, 1 axis (110 deg/s)
+Bumpers: left, center, right
+Cliff sensors: left, center, right
+Wheel drop sensor: left, right
+Power connectors: 5V/1A, 12V/1.5A, 12V/5A
+Expansion pins: 3.3V/1A, 5V/1A, 4 x analog in, 4 x digital in, 4 x digital out
+Audio : several programmable beep sequences
+Programmable LED: 2 x two-coloured LED
+State LED: 1 x two coloured LED [Green - high, Orange - low, Green & Blinking - charging]
+Buttons: 3 x touch buttons
+Battery: Lithium-Ion, 14.8V, 2200 mAh (4S1P - small), 4400 mAh (4S2P - large)
+Firmware upgradeable: via usb
+Sensor Data Rate: 50Hz
+Recharging Adapter: Input: 100-240V AC, 50/60Hz, 1.5A max; Output: 19V DC, 3.16A
+Netbook recharging connector (only enabled when robot is recharging): 19V/2.1A DC
+Docking IR Receiver: left, centre, right
+Diameter : 351.5mm / Height : 124.8mm / Weight : 2.35kg (4S1P - small)
+
+# References
+
+1. <https://www.turtlebot.com/turtlebot2/>
+2. <https://robosavvy.co.uk/kobuki-ymr-k01-w1-turtlebot-2-base.html>
